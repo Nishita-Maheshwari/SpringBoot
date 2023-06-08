@@ -18,7 +18,7 @@
 			3. by using @Bean (and @Configuration) annotation [used at method level]
 	
 ==========> Springboot is used to boot our spring application <==========
-# ================================================================================================
+# ================================================
 
 # Springboot :-
 	-> Springboot is an open source java-based framework which is developed by Pivotal Team
@@ -41,7 +41,7 @@
 		3. Springboot CLI
 		4. Springboot Actuators
 		
-   # -----------------------------------------------------------------------------------------
+   # -------------------------------------------------
 
 # Springboot Starters :-
 	-> Springboot starters are the "dependency descriptors"
@@ -75,14 +75,14 @@
 	-> There are many third party starters which we can include in our applications
 	-> Third party starters follows the below name patter :-
 		= projectname-spring-boot-starter
-# -------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------
 
 # Springboot AutoConfigurator :-
 	-> Springboot AutoConfigurators, automatically configures the spring application configurations based on the jar dependencies that we have added
 	-> All auto-configuration logic is implemented in "spring-boot-autoconfigure.jar"
 	-> pringboot AutoConfigurator provides one annotation i.e. @SpringBootApplication
 		= @SpringBootApplication = @Configuration + @ComponentScan + @EnableAutoConfiguration
-# -------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------
 
 
 
@@ -116,7 +116,7 @@
 			- @ConditionalOnClass and @ConditionalOnMissingClass
 			  etc
 			  
-# ----------------------------------------------------------------------------------------
+
 
 # => Tasks performed by run method :-
 	-> Calculate the duration of project started
@@ -127,7 +127,7 @@
 	-> Trigger the Runners
 	   etc
 	
-# -------------------------------------------------------------------------------------------
+# ------------------------------------------------------
 
 
 
@@ -151,7 +151,7 @@
 
 
 
-# ==================================================================================================================
+# =========================================================
 # Springboot Data JPA
 
 ![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/c90165ed-1495-4986-abf1-89c620c11a0a)
@@ -160,7 +160,7 @@
 
 
 
-# ================================================================================================================
+# =====================================================
 
 # What is API, Web Services and MicroServices ?
 
@@ -189,7 +189,7 @@
 		4. Composit API's
 			= These combine any two or more different API's for any system or project
 
-# ===================================================================================================
+# =============================================
 
 # => Web Services :-
 	-> Web Services are a type of API used to exchange the data (XML or JSON) between different systems over the network
@@ -202,7 +202,7 @@
 		= SOAP web services
 		= RESTful web services
 	
-# ==================================================================================================
+# =================================================
 
 # => Microservices :-
 	-> Microservices is software architecture used to design an application. The idea behind the application development is that "create small independent components (or services) which performs simple task, then merge or integrate them into a single unit to build a large complex application"
@@ -216,7 +216,7 @@
 		  etc
 	-> There are many technologies to develop microservices but mostly used technology is Java and its frameworks (Springboot, Spark, DropWizard, Jersey etc)
 
-# ==================================================================================================
+# =============================================
 
 => Resources :-
 
@@ -224,7 +224,7 @@
 
 => Postman :-
 
-# ==================================================================================================
+# ==============================================================
 ![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/e9f9e187-ffff-4579-badc-5f4c9e99c431)
 
 
@@ -264,7 +264,7 @@
 
 
 
-# =================================================================================================================
+# ====================================================
 
 # RESTful Web Services
 
@@ -273,7 +273,7 @@
 	-> Resource is the simple files i.e. html or images or data which are present on server
 	-> To access the resource from server we use URI
 
----------------------------------------------------------------------------------------------
+-----------------------------------------------------
 
 # => HTTP :-
 	-> Full form is "Hyper Text Transfer Protocol"
@@ -293,7 +293,7 @@
 		= DELETE
 		  etc
 
--------------------------------------------------------------------------------------------------
+-----------------------------------------------------------
 
 # => What is difference between SOAP and REST :-
 	= SOAP : Simple Object Access Protocol
@@ -317,7 +317,7 @@
 	= SOAP is outdated web service
 	  REST is traditional web service
 
--------------------------------------------------------------------------------------------------
+---------------------------------------------------------
 
 # => Difference between REST and RESTful :-
 	-> REST is the set of constraints. There are 6 main constraints :-
@@ -338,17 +338,17 @@
 	-> REST was developed by Roy Fielding (he is the only one who provides the HTTP specifications)
 	-> We can develop RESTful web services in multiple frameworks i.e. JAX-RS, Springboot, Jersey etc
 
--------------------------------------------------------------------------------------------------
+---------------------------------------
 
 # => XML and JSON format :-
 	
 
--------------------------------------------------------------------------------------------------
+------------------------------------------
 
 # => Postman :-
 	-> It is a tool used to test the RESTful API
 
-==================================================================================================
+===================================
 
 ![URI_lyst9213](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/3c1a4193-82e8-4cba-a7fc-7696e2eeb889)
 
