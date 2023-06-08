@@ -18,7 +18,7 @@
 			3. by using @Bean (and @Configuration) annotation [used at method level]
 	
 ==========> Springboot is used to boot our spring application <==========
-# ================================================
+# ========================
 
 # Springboot :-
 	-> Springboot is an open source java-based framework which is developed by Pivotal Team
@@ -99,7 +99,7 @@
 	4. using Springboot Initializr
 	5. using Springboot CLI (Command Line Interface)
 	
-  # =============================================================================================
+  # =================================
 
 # => Springboot Annotations :-
 	-> Springboot annotations are present in following packages :-
@@ -202,7 +202,7 @@
 		= SOAP web services
 		= RESTful web services
 	
-# =================================================
+# ==============================
 
 # => Microservices :-
 	-> Microservices is software architecture used to design an application. The idea behind the application development is that "create small independent components (or services) which performs simple task, then merge or integrate them into a single unit to build a large complex application"
@@ -224,7 +224,7 @@
 
 => Postman :-
 
-# ==============================================================
+# =======================================
 ![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/e9f9e187-ffff-4579-badc-5f4c9e99c431)
 
 
@@ -264,7 +264,7 @@
 
 
 
-# ====================================================
+# =================================
 
 # RESTful Web Services
 
