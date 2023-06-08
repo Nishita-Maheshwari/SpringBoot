@@ -18,7 +18,7 @@
 			3. by using @Bean (and @Configuration) annotation [used at method level]
 	
 ==========> Springboot is used to boot our spring application <==========
-# ========================
+
 
 # Springboot :-
 	-> Springboot is an open source java-based framework which is developed by Pivotal Team
@@ -41,7 +41,7 @@
 		3. Springboot CLI
 		4. Springboot Actuators
 		
-   # -------------------------------------------------
+   # ----------------
 
 # Springboot Starters :-
 	-> Springboot starters are the "dependency descriptors"
@@ -75,14 +75,14 @@
 	-> There are many third party starters which we can include in our applications
 	-> Third party starters follows the below name patter :-
 		= projectname-spring-boot-starter
-# ------------------------------------------------------------
+# ---------------------------
 
 # Springboot AutoConfigurator :-
 	-> Springboot AutoConfigurators, automatically configures the spring application configurations based on the jar dependencies that we have added
 	-> All auto-configuration logic is implemented in "spring-boot-autoconfigure.jar"
 	-> pringboot AutoConfigurator provides one annotation i.e. @SpringBootApplication
 		= @SpringBootApplication = @Configuration + @ComponentScan + @EnableAutoConfiguration
-# -------------------------------------------------------------
+# -----------------------
 
 
 
@@ -99,7 +99,7 @@
 	4. using Springboot Initializr
 	5. using Springboot CLI (Command Line Interface)
 	
-  # =================================
+
 
 # => Springboot Annotations :-
 	-> Springboot annotations are present in following packages :-
@@ -151,7 +151,7 @@
 
 
 
-# =========================================================
+
 # Springboot Data JPA
 
 ![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/c90165ed-1495-4986-abf1-89c620c11a0a)
@@ -160,7 +160,7 @@
 
 
 
-# =====================================================
+# -----------------------
 
 # What is API, Web Services and MicroServices ?
 
@@ -189,7 +189,7 @@
 		4. Composit API's
 			= These combine any two or more different API's for any system or project
 
-# =============================================
+# ------------------------------
 
 # => Web Services :-
 	-> Web Services are a type of API used to exchange the data (XML or JSON) between different systems over the network
@@ -216,7 +216,7 @@
 		  etc
 	-> There are many technologies to develop microservices but mostly used technology is Java and its frameworks (Springboot, Spark, DropWizard, Jersey etc)
 
-# =============================================
+# ----------------
 
 => Resources :-
 
@@ -224,7 +224,7 @@
 
 => Postman :-
 
-# =======================================
+# ----------------------
 ![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/e9f9e187-ffff-4579-badc-5f4c9e99c431)
 
 
@@ -264,7 +264,7 @@
 
 
 
-# =================================
+# -----------------------
 
 # RESTful Web Services
 
