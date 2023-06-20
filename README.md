@@ -369,3 +369,116 @@
 ![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/75b4f8fd-0e0b-47c4-b678-0b7b08630571)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# JACKSON
+
+# => Jackson :-
+	-> Jackson is a popular JSON (JavaScript Object Notation) processing library in java
+	-> It is used to convert/serialize Java Objects/Map to JSON and vice-versa
+	-> Features :-
+		1. Easy to use
+		2. High Performance
+		3. No need to create mapping
+		4. Integration with java frameworks
+		5. Open Source (free to use)
+		6. No Dependency
+# -> Jackson provides 3 ways to process the JSON :-
+		1. Data Binding :-
+			= It is a way to convert JSON to POJO and vice-versa using property accessor or using annotations
+			= It is of 2 types :-
+				A. Simple Data Binding :-
+					-) It converts JSON to Java Maps, Lists, Strings, Numbers, Booleans and Null Objects and vice-versa
+				B. Full Data Binding
+					-) It converts JSON from any Java type and vice-versa
+			= Classes or Interfaces used for this are :-
+				A. ObjectMapper
+				B. ObjectReader
+				C. ObjectWriter
+		2. Streaming API :-
+			= It is used to process JSON data in streaming manner, We can read and write JSON data incrementally, without loading the entire JSON structure into memory
+			= It is useful when dealing with large JSON documents or contineous streams of JSON data as it provides efficient and memory-friendly procressing
+			= It is the most powerful approach among others
+			= Classes or Interfaces used for this are :-
+				A. JsonParser
+				B. JsonGenerator
+		3. Tree Model :-
+			= It is used to create in-memory tree representation of the JSON document similar to DOM tree
+			= It is not much fast as compared to streaming API, but it is most flexible approach to read and write JSON data
+			= Classes or Interfaces used for this are :-
+				A. JsonNode
+				B. ObjectNode
+				C. ArrayNode
+				   etc
+				   
+------------------------
+
+![image](https://github.com/Nishita-Maheshwari/SpringBoot/assets/47790697/bdb5fef9-f4c0-47d8-95dd-a9b647cfd882)
+
+
+
+
+# => Programs :-
+	1. Convert "JSON String" to "Java Object"
+	2. Convert "JSON Array String" to "Java Array Objects"
+	3. Write "Java Object" to "JSON file" and Read "JSON file" to "Java Object"
+	
+	4. Convert "Java Object" to "JSON String"
+	5. Convert "JSON String" to "Java Map"
+	6. Write "Java Object" to "Java Map File" AND Read "Java Map File" to "Java Object"
+	7. Read "JSON from URL" to "Java Object"
+	
+	8. Write "JSON Object" to "JSON File" using Streaming API
+	9. Read "JSON String" using Streaming API
+	10. Read "JSON from URL" using Streaming API
+
+
+
+
+
+
+
+
+
+# => Jackson Annotations :-
+	
+	1. @JsonProperty :-
+		-> It is used to indicate the mapping between a JSON property and a corresponding Java Object property during serialization and deserialization
+		-> It can be used with property or getter/setter methods
+		
+	2. @JsonAlias :-
+		-> It is used to provide alternative names for j JSON property during deserialization
+		-> It can be used with property or getter/setter methods or in constructor arguments
+		
+	3. @JsonIgnore :-
+		-> It is used to indicate that the specific property or getter method or setter method should be ignored in the JSON representation or being mapped from the JSON input during serialization and deserialization process
+		-> It is used with properties or getter/setter methods or in constructor arguments
+		
+	4. @JsonIgnoreProperties :-
+		-> It is used to ignore certain properties when mapping to or from JSON during serialization and deserialization
+		-> It is used at class level
+		
+	5. @JsonFormat :-
+		-> It is used to customize the formatting of date/time values during serialization and deserialization
+		-> It can be used with property or getter/setter methods
+		
+	6. @JsonAnyGetter :-
+		-> It is used to dynamically serialize properties of a class that do not have explicit mapping. It allows us to include additional properties in the serialized JSON that are not explicitly defined as properties or getter methods
+		
+	7. @JsonAnySetter :-
+		-> It is used to dynamically deserialize properties of a class that do not have explicit mapping. It allows us to include additional properties in the deserialized JSON that are not explicitly defined as properties or setter methods
